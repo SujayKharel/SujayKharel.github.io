@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg1
+{
+    height: 100vh;
+    background: url(https://themewagon.github.io/archs/images/hero_bg_1.jpg);
+    background-size: cover;
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+}
+
+.left
+{
+    padding-left: 220px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right
+{
+padding-right: 220px;
+
+ display: flex;  
+ align-items: left;
+
+ /* justify-content: space-between; */
+}
+
+.row    
+{
+    padding-top: 20px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between  ;
+}
+.r1{
+    padding-left: 20px;
+}
+
+.underline{
+    border-bottom: solid;
+    border-width: 1px;
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+
+.row1
+{
+    padding-top: 20px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between  ; 
+}
+
+
+
+.logo{
+    font-size: 27px;
+    font-weight: 800;
+    padding-left: 200px;
+}
+
+.content
+{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.row2
+{
+    padding-left: 430px;
+    padding-top: 530px;
+    color: aliceblue;
+    border: black;
+    border-radius: 10;
+}
+
+h1
+{
+    font-size: 80px;
+    font-family: 'roboto' sans-serif;
+    color: white;
+}
+
+.bg1 p
+{
+    padding-left: 70px;
+}
+
+.bg2
+{
+    padding-top: 150px;
+}
+
+.bg2 .left1
+{
+   float: left;
+   padding-left: 150PX;
+
+}
+
+.right1
+{
+    float: right;
+    padding-right: 250px;
+    padding-top: 50px;
+}
+
+.bg2 h1
+{
+    font-size: 30px;
+    color: red;
+}
+
+.bg2 p
+{
+    padding-top: 10px;
+}
+
+.bg2 ul
+{
+    padding-top: 20px;
+}
+
+.bg3
+{
+    float: none;
+    font-size: 30px; 
+    text-align: center;
+    padding-top: 500px;
+}
+
+.bg3 p{
+   font-size: 15px; 
+   padding: 10px;
+}
+
+.bg4
+{
+    display: flex;
+    padding-right: auto;
+    padding-left: 150px;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.bg4 p
+{
+    padding-top: 10px;
+}
+
+.bg5 h4
+{
+    color:red;
+    font-size: 25px;
+}
+
+.bg5
+{
+    float: none;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.bg5 h2
+{
+    font-size: 40px;
+}
+
+/* .bg5 .underline
+{
+    color:#3e4526;
+} */
+
+.bg6
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+
+}
+
+.bg6 h1
+{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.bg6 h2
+{
+    font-size: 18px;
+    color: red;
+    padding-top: 40px;
+}
+
+.bg6 p
+{
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.bg6 li
+{
+    padding-top: 30px;
+    color: red;
+    font-size: 18;
+    font-weight: 1000;
+}
+
+.bg7
+{
+    float: none;
+    text-align: center;
+    padding-top: 50px;
+    /* background-color: #f9faf7; */
+    padding-bottom: 50px;
+
+}
+
+.bg7 img
+{
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.bg7 h5
+{
+    font-size: 15px;
+    color: red;
+}
+
+.bg7 h6
+{
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.bg7 h1
+{
+    font-size: 18px;
+}
+
+.bg7 p
+{
+    padding-top: 20px;
+}
+
+.bg8
+{
+    display: flex;
+    padding-right: auto;
+    padding-left: 200px;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.bg8 h3
+{
+    padding-top: 20px;
+}
+
+.bg8 p
+{
+    color: rgb(71, 82, 82);
+}
+
+.bg9
+{
+    display: flex;
+    padding-right: auto;
+    padding-left: 300px;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bg9 p
+{
+    padding-top: 15px;
+}
+
+.bg10
+{
+   display: flex;
+   justify-content: center;
+   gap: 300px;
+   padding-top: 60px;
+   padding-bottom: 60px;
+   background-color: #f9faf7;
+}
+
+.bg10 p
+{
+    font-size: 15px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.left10
+{
+    display: flex;
+    gap: 200px;
+}
+
+.bg10 h10
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bg10 li
+{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.footer
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
